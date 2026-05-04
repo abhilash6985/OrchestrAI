@@ -211,5 +211,49 @@ Using embeddings + GitHub context, OrchestrAI can:
 - Cross‑repo impact analysis  
 - Full traceability dashboard  
 
+---
+
+# 📸 **15. Screenshots**
+
+## Login
+![Login](screenshots/login.png)
+
+## Business User
+
+### Submit a Request
+![User Request](screenshots/user-request.png)
+
+### Request Options
+![User Request Options](screenshots/user-request-options.png)
+
+### AI Interview
+![User Interview](screenshots/user-interview.png)
+
+## Product Owner
+
+### List View
+![PO List View](screenshots/po-list-view.png)
+
+### Review Page
+![PO Review Page](screenshots/po-review-pg.png)
+
+## Developer
+
+### Developer Dashboard
+![Developer Dashboard](screenshots/dev-dash.png)
+
+## Admin
+
+### Templates
+![Admin Templates](screenshots/admin-temp.png)
+
+### Template Options
+![Admin Template Options](screenshots/admin-temp-options.png)
+
+### Ruleset
+![Admin Ruleset](screenshots/admin-ruleset.png)
+
+## AI Health
+![AI Health](screenshots/health-AI.png)
 
 
