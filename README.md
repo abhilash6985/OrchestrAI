@@ -213,13 +213,6 @@ Using embeddings + GitHub context, OrchestrAI can:
 
 ---
 
-Here’s a clean, README‑friendly **ASCII architecture diagram** for OrchestrAI.  
-It renders perfectly on GitHub, requires no images, and clearly shows the full workflow end‑to‑end.
-
-You can paste this directly into your README.
-
----
-
 # **📊 OrchestrAI – System Architecture Diagram**
 
 ```
@@ -337,17 +330,6 @@ User Input
      ▼
 Interview Agent ──► Repo Analysis Agent ──► Document Agent ──► Jira Agent ──► PR Agent
 ```
-
----
-
-If you want, I can also generate:
-
-- A **sequence diagram**  
-- A **component diagram**  
-- A **data flow diagram**  
-- A **mermaid.js version** (GitHub renders it beautifully)  
-
-Just tell me which one you want.
 ---
 # 📸 **15. Screenshots**
 
