@@ -218,6 +218,17 @@ Using embeddings + GitHub context, OrchestrAI can:
 ## Login
 ![Login](screenshots/login.png)
 
+## Admin
+
+### Templates
+![Admin Templates](screenshots/admin-temp.png)
+
+### Template Options
+![Admin Template Options](screenshots/admin-temp-options.png)
+
+### Ruleset
+![Admin Ruleset](screenshots/admin-ruleset.png)
+
 ## Business User
 
 ### Submit a Request
@@ -242,18 +253,8 @@ Using embeddings + GitHub context, OrchestrAI can:
 ### Developer Dashboard
 ![Developer Dashboard](screenshots/dev-dash.png)
 
-## Admin
-
-### Templates
-![Admin Templates](screenshots/admin-temp.png)
-
-### Template Options
-![Admin Template Options](screenshots/admin-temp-options.png)
-
-### Ruleset
-![Admin Ruleset](screenshots/admin-ruleset.png)
-
 ## AI Health
+### Screenshot of the mobile App that i built using OrchestrAI
 ![AI Health](screenshots/health-AI.png)
 
 
