@@ -213,7 +213,7 @@ Using embeddings + GitHub context, OrchestrAI can:
 
 ---
 
-# **📊 OrchestrAI – System Architecture Diagram**
+# **📊 OrchestrAI – Workflow Diagram**
 
 ```
                            ┌──────────────────────────┐
