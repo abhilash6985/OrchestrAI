@@ -213,6 +213,142 @@ Using embeddings + GitHub context, OrchestrAI can:
 
 ---
 
+Here’s a clean, README‑friendly **ASCII architecture diagram** for OrchestrAI.  
+It renders perfectly on GitHub, requires no images, and clearly shows the full workflow end‑to‑end.
+
+You can paste this directly into your README.
+
+---
+
+# **📊 OrchestrAI – System Architecture Diagram**
+
+```
+                           ┌──────────────────────────┐
+                           │        Business User      │
+                           │  "I have a request"       │
+                           └─────────────┬────────────┘
+                                         │
+                                         ▼
+                         ┌──────────────────────────────────┐
+                         │   Request Intake & Repo Picker    │
+                         │  (Pulls all GitHub Org Repos)     │
+                         └──────────────────┬────────────────┘
+                                            │
+                                            ▼
+                           ┌────────────────────────────────┐
+                           │   AI Interview Engine           │
+                           │ (Clarifies missing details)     │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │  Repo Analysis Engine           │
+                           │ (Copilot + Embeddings + Neo4j) │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │  Draft Jira Ticket Summary      │
+                           │ (User reviews & approves)       │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │ Product Owner Review            │
+                           │ + File Uploads (Docs, ERDs,     │
+                           │   Transcripts, Designs, etc.)   │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │ AI Document Generator           │
+                           │ (BRD, URS, FRS, AC, Tech Notes) │
+                           │ Templates configurable by Admin │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │ Jira Ticket Creator             │
+                           │ (Epics, Stories, Subtasks)      │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │ Sprint Planning (Human Step)    │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                   ┌──────────────────────────────────────────────────────┐
+                   │ Nightly Auto‑Implementation Engine                   │
+                   │ - Checks Jira for assigned tickets                   │
+                   │ - Pulls repo + ticket context                        │
+                   │ - Sends instructions to GitHub Coding Agent          │
+                   │ - Generates branch, code, tests, fixes, PR           │
+                   └──────────────────┬───────────────────────────────────┘
+                                      │
+                                      ▼
+                           ┌────────────────────────────────┐
+                           │ Pull Request Ready for Review   │
+                           │ (Developer Dashboard)           │
+                           └──────────────────┬──────────────┘
+                                              │
+                                              ▼
+                           ┌────────────────────────────────┐
+                           │ Developer Reviews & Merges PR   │
+                           └────────────────────────────────┘
+```
+
+---
+
+# **🧠 Data & Knowledge Layer Diagram**
+
+```
+┌──────────────────────────┐
+│        Postgres          │
+│ Users, Sessions, Rules,  │
+│ Templates, Jobs, Logs    │
+└─────────────┬────────────┘
+              │
+              ▼
+┌──────────────────────────┐
+│         Neo4j Graph      │
+│ Requirements ↔ Jira       │
+│ Jira ↔ PRs ↔ Files        │
+│ Repos ↔ Services          │
+│ Full SDLC Traceability    │
+└─────────────┬────────────┘
+              │
+              ▼
+┌──────────────────────────┐
+│         Qdrant           │
+│ Code Embeddings          │
+│ Document Embeddings      │
+│ Repo Context Retrieval   │
+└──────────────────────────┘
+```
+
+---
+
+# **⚙️ AI Orchestration Flow**
+
+```
+User Input
+     │
+     ▼
+Interview Agent ──► Repo Analysis Agent ──► Document Agent ──► Jira Agent ──► PR Agent
+```
+
+---
+
+If you want, I can also generate:
+
+- A **sequence diagram**  
+- A **component diagram**  
+- A **data flow diagram**  
+- A **mermaid.js version** (GitHub renders it beautifully)  
+
+Just tell me which one you want.
+---
 # 📸 **15. Screenshots**
 
 ## Login
