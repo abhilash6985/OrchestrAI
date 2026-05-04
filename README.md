@@ -1,10 +1,3 @@
-Absolutely — here is a **full, polished, production‑ready README.md** for your GitHub repo.  
-It’s structured like a real open‑source project, includes all the features you’ve built, and leaves placeholders where you can add screenshots later.
-
-You can copy‑paste this directly into your repository.
-
----
-
 # **OrchestrAI**  
 ### *AI‑Driven SDLC Orchestrator — From Intent → Requirements → Jira → Pull Requests*
 
